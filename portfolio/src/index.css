@@ -36,6 +36,24 @@
     animation: shake 0.5s infinite; /* Apply the shake animation */
 }
 
+.marc-font {
+    font-family: 'Marcellus SC', serif;
+}
 
+.orbitron-font {
+    font-family: 'Orbitron', sans-serif;
+}
 
+.kaushan-font {
+    font-family: 'Kaushan Script', cursive;
+}
 
+/* TextWithStroke.css */
+.text-with-stroke {
+    text-shadow:
+      -1px -1px 2px #000, /* Top-left */
+      1px -1px 2px #000,  /* Top-right */
+      -1px 1px 2px #000,  /* Bottom-left */
+      1px 1px 2px #000;   /* Bottom-right */
+  }
+  
