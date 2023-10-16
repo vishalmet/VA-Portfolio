@@ -38,9 +38,9 @@ function Home() {
                         <a href="https://github.com/vishalmet" target='_blank' ><img className=' hover:scale-105 transition-transform duration-75' src={GitHub} alt="github" /></a>
                     </div>
                     <div className="  text-6xl kaushan-font pt-16 text-shadow-xs lg:col-span-2 ">
-                        <p className='text-xl text-white flex justify-center md:text-4xl lg:text-6xl bg-gradient-to-b from-sky-500 to-white bg-clip-text text-transparent'>Hi! <p className=' text-white pl-1 shaking-emoji emoji-container pt-3'>👋</p> I am Vishal Aakash <br /> <br /> </p>
+                        <p className='text-xl  bg-gradient-to-b from-sky-500 to-white bg-clip-text text-transparent flex justify-center md:text-4xl lg:text-6xl'>Hi! <p className=' text-white pl-1 shaking-emoji emoji-container pt-3'>👋</p> I am Vishal Aakash <br /> <br /> </p>
                         <div className=" animate-pulse">
-                        <p className='text-white flex justify-center bg-gradient-to-b from-green-600 to-green-100 bg-clip-text text-transparent'> Designer <span className='text-white pl-1'>-</span> <span className='bg-clip-text text-transparent bg-gradient-to-b from-yellow-500 to-yellow-100 pb-3 pr-2 '>Developer </span> </p>
+                        <p className=' flex justify-center bg-gradient-to-b from-green-600 to-green-100 bg-clip-text text-transparent'> Designer <span className='text-white pl-1'>-</span> <span className='bg-clip-text text-transparent bg-gradient-to-b from-yellow-500 to-yellow-100 pb-3 pr-2 '>Developer </span> </p>
                         <p className=' flex justify-center text-white pb-3' >- Guitarist -</p>
                         <p className='text-white flex justify-center'>- <span className='bg-gradient-to-b from-red-100 via-red-300 to-red-600 bg-clip-text text-transparent pb-3 pr-2'>Social Media Manager</span> -</p>
                         </div>
@@ -57,9 +57,9 @@ function Home() {
                     </div>
                 </div>
                 
-                <div className=" absolute animate-bounce right-0 bottom-0 pr-6 pb-6">
+                {/* <div className=" absolute animate-bounce right-0 bottom-0 pr-6 pb-6">
                     <img src={Scroll} alt="Scroll" />    
-                </div>    
+                </div>     */}
         </div>
     );
 }
