@@ -25,7 +25,7 @@ function NavBar() {
                   <a href="/about">About Me</a>
                 </li>
                 <li className='py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer hover:text-black'>
-                  <a href="">Experience</a>
+                  <a href="/experience">Experience</a>
                 </li>
                 <li className='py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer hover:text-black'>
                   <a href="/works">My Works</a>                </li>
