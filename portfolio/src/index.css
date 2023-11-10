@@ -57,3 +57,10 @@
       1px 1px 2px #000;   /* Bottom-right */
   }
   
+.poppins-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fatface-font {
+    font-family: 'Abril Fatface', serif;
+}

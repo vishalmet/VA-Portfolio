@@ -57,18 +57,18 @@ const Works = () => {
             </div>
 
             <div className="">
-                <p className='kaushan-font text-yellow-600 text-4xl flex justify-center text-with-stroke md:text-6xl pt-6' style={textShadowStyle}>My Works✨</p>
+                <p className='kaushan-font bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent pr-3 pb-3 text-4xl flex justify-center text-with-stroke md:text-6xl pt-6' style={textShadowStyle}>My Works <span className='text-white'>✨</span></p>
             </div>  
             <div className=" pt-10 pl-20 pr-20 flex justify-center  ">
                 <div className="flex-rows justify-center h-screen space-y-6 space-x-28 md:grid grid-cols-3 grid-rows-3">
-                    <a href="https://devfolio.co/projects/fundraiz-7b6e" className="pl-3 pt-12">
+                    <a href="https://devfolio.co/projects/fundraiz-7b6e" className="pl-3 pt-6">
                         <div className="bg-white/10 hover:scale-105  text-white  w-[250px] h-[260px] rounded-3xl ">
                             <img src={FR} alt="projectimg"></img>
                             <p className="font-bold text-white  pt-3 pl-3">FundRaiz - A Decentralized Application</p>
                         <a href="https://devfolio.co/projects/fundraiz-7b6e" target='_blank' rel='noreferrer' className="pl-3">Empower the Crowd, Fund the <span className='pl-3'>Future</span></a>
                         </div>
                     </a>
-
+                    
                     <a href="https://devfolio.co/projects/grfolio-6779" className='pl-3 pt-6' >
                         <div className="bg-white/10 hover:scale-105 text-white  w-[250px] h-[260px] rounded-3xl ">  
                             <img src={GR} alt="GrFolio"></img>
