@@ -37,7 +37,7 @@ function Home() {
                         <a href="https://twitter.com/VishalAakash18" target='_blank' ><img className=' hover:scale-105 transition-transform duration-75' src={X} alt="X" /> </a>
                         <a href="https://github.com/vishalmet" target='_blank' ><img className=' hover:scale-105 transition-transform duration-75' src={GitHub} alt="github" /></a>
                     </div>
-                    <div className="  text-4xl kaushan-font pt-16 text-shadow-xs lg:col-span-2 lg:text-6xl">
+                    <div className="  text-4xl cute-font pt-16 text-shadow-xs lg:col-span-2 lg:text-6xl">
                         <p className='  bg-gradient-to-b from-sky-500 to-white bg-clip-text text-transparent flex justify-center md:text-4xl lg:text-6xl'>Hi! <p className=' text-white pl-1 shaking-emoji emoji-container pt-3'>👋</p> I am Vishal Aakash <br /> <br /> </p>
                         <div className=" animate-pulse">
                         <p className=' flex justify-center bg-gradient-to-b from-green-600 to-green-100 bg-clip-text text-transparent'> Designer <span className='text-white pl-1'>-</span> <span className='bg-clip-text text-transparent bg-gradient-to-b from-yellow-500 to-yellow-100 pb-3 pr-2 '>Developer </span> </p>

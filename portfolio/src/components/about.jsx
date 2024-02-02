@@ -64,21 +64,21 @@ const About = () => {
                 </div>
             </div>
 
-            <p className='text-4xl flex justify-center pt-6 text-with-stroke kaushan-font bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent pr-3 pb-3 lg:text-6xl' style={textShadowStyle}><span className='text-white'>🌟</span> About Me:</p>
-            <div className="items-center justify-center  md:grid grid-cols-2 flex-shrink-0">
+            {/* <p className='text-2xl flex justify-center pt-6 text-with-stroke poppins-font bg-gradient-to-t  from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent md:text-5xl' style={textShadowStyle}> About Me:</p> */}
+            <div className="items-center  md:grid grid-cols-2 flex-shrink-0">
                 <div className=" ">
                     <img src={MyPic} alt="Vishal" />
                 </div>
                 <div className=" w-auto h-max mx-4  flex-shrink-0 rounded-3xl md:mx-12 " style={textBG}>
-                    <p className=' text-xl  kaushan-font mx-3 my-3 md:mx-6 md:my-6 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 bg-clip-text text-transparent md:text-3xl'>
+                    <p className=' text-xl  poppins-font mx-3 my-3 md:mx-6 md:my-6 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 bg-clip-text text-transparent md:text-2xl'>
                         I'm a passionate and creative frontend developer and designer with a keen eye for aesthetics and a knack for crafting engaging and user-friendly web experiences. With a background in both design and development, I bring a unique blend of skills to the table, allowing me to bridge the gap between design concepts and functional, responsive websites.
                     </p>
                 </div>
             </div>
 
-            <div className=" pt-20  items-center justify-center mx-4 md:mx-12  md:grid grid-cols-2 flex-shrink-0">
-                <div className=" w-auto h-max  flex-shrink-0 rounded-3xl " style={combinedStyles}>
-                    <p className=' text-xl mx-3 my-3 kaushan-font md:mx-6 md:my-6 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 bg-clip-text text-transparent md:text-4xl'>
+            <div className=" items-center mx-4 md:mx-12  md:grid grid-cols-2 flex-shrink-0">
+                <div className=" w-auto h-max  flex-shrink-0 rounded-3xl " style={textBG}>
+                    <p className=' text-xl mx-3 my-3 poppins-font md:mx-6 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 bg-clip-text text-transparent md:text-2xl'>
                     I am experienced in working with tailwindcss, javascript and also frameworks like reactjs, django and curently trying to incorporate with flask. I am also familiar with python, C, C++, Java. I am comfortable in using figma, canvas, miro and mural for designing UI & ideating.</p>
                 </div>
                 <div className=" ">
